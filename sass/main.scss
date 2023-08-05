@@ -1,0 +1,16 @@
+
+@import "core/reset";
+@import "animations/animation";
+@import "core/variables";
+@import "core/layout";
+@import "components/header";
+@import "components/footer";
+@import "components/main";
+@import "components/video";
+@import "pages/home";
+@import "pages/contacto";
+
+// sobreescribe clase de bootstrap
+.btn-primary {
+    background-color: $primary_color;
+}

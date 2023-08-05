@@ -1,0 +1,17 @@
+.video {
+    &__frame{
+        width: 1000px;
+        height: 450px;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .video{
+        &__frame{
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    }
+  }
